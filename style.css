@@ -50,11 +50,12 @@ nav ul li a{
 }
 .nav-button:hover{
     background-color: #dddd05;
+    color:white;
     
 }
-.nav-button a:hover{
+/* .nav-button a:hover{
     color:white;
-}
+} */
 
 /* styles for heading */
 
@@ -78,8 +79,10 @@ nav ul li a{
 }
 .heading-title p{
     color: white;
-    
-
+    font-size:20px;
+}
+.heading-title p:hover{
+    color:#dddd05;
 }
 .heading-button{
     padding:15px 30px;
@@ -168,15 +171,24 @@ footer{
     align-items: center;
     padding:30px 80px;
 }
-
+#email{
+    color:gray;
+}
+#email:hover{
+    color:#dddd05;
+}
 .privacy ul li{
     list-style: none;
     display: inline;
     padding:10px;
 }
+.privacy ul li a:hover{
+    color:#dddd05;
+}
 .privacy ul li a{
     text-decoration:none;
     color:gray;
+    font-size:20px;
 }
 .footer-contact  h3{
     /* padding-bottom: 10px; */
@@ -199,11 +211,18 @@ address{
     font-size: 20px;
    
 }
+.footer-icon a:hover{
+    color:yellow;
+}
 .fa-phone{
     color:#dddd05;
     font-size: 20px;
 }
 .fa-envelope{
+    color:#dddd05;
+    font-size: 20px;
+}
+.copyright p:hover{
     color:#dddd05;
     font-size: 20px;
 }
