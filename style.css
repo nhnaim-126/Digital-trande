@@ -12,6 +12,10 @@
     justify-content:space-between;
     padding:20px 100px;
     background-color:#0C8195 ;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right:0;
 }
 
 nav ul li{
@@ -225,4 +229,47 @@ address{
 .copyright p:hover{
     color:#dddd05;
     font-size: 20px;
+}
+
+/* styles for contact */
+.contact{
+   text-align: center;
+   margin-top: 100px;
+}
+.contact-heading h2{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.contact-heading p{
+    font-size: 20px;
+    padding: 10px 0;
+    
+} 
+input{
+    padding:15px;
+    border-radius: 5px;
+    width:400px;
+    margin: 30px 0;
+    background-color:rgba(173, 216, 230, 0.26);
+    font-size: 20px;
+}
+textarea{
+    background-color: rgba(173, 216, 230, 0.382);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.login-btn{
+    padding:10px;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    background-color:#057A8D;
+    border:none;
+    border-radius: 25px;
+}
+.login-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding:50px;
 }
